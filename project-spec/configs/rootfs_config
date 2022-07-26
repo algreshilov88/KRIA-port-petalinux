@@ -4100,6 +4100,12 @@ CONFIG_Init-manager-systemd=y
 # CONFIG_Init-manager-sysvinit is not set
 
 #
+# modules 
+#
+CONFIG_dma-proxy=y
+CONFIG_xilinx-xvc-driver=y
+
+#
 # user packages 
 #
 # CONFIG_gpio-demo is not set

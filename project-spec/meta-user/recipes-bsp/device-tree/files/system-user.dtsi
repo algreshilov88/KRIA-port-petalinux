@@ -45,11 +45,11 @@ local-mac-address = [00 0a 35 00 00 02];
 mdio {
 /*#address-cells = <1>;
 #size-cells = <0>;*/
-phy0: phy0@2 {
-	      reg = <0x2>;
-             };
-phy1: phy1@3 {
+phy0: phy0@3 {
 	      reg = <0x3>;
+             };
+phy1: phy1@2 {
+	      reg = <0x2>;
       	     };
 };
 };
